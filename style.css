@@ -1,0 +1,46 @@
+body{
+    /* Variables */
+    --bg-bar: darkblue;
+    /* Variables */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    /* box
+    background-color: var(--bg-bar);
+    border: 2px solid black;
+    min-width: 100vw;
+    min-height: 8vh;
+    position: absolute;
+    top: 0; */
+}
+header h1{
+    /* min-width: 100%;
+    min-height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 5em; */
+}
+
+main{
+
+}
+
+footer{
+    background-color: var(--bg-bar);
+    border: 5px solid black;
+    min-width: 100vw;
+    min-height: 12vh;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Classes */
+.container::before{
+    align-content: center;
+}
+.container{
+    max-width: 50vw;
+}
