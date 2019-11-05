@@ -1,7 +1,12 @@
-@media (width: 360px){
-body{
-	--bg-bar: gainsboro;
+@media (max-width: 799;){
+	body{
+		--bg-bar: gainsboro;
+	}
 }
+@media (min-width: 800;){
+	body{
+	--bg-bar: darkblue;
+	}
 }
 /* 4:3 mode ↓ */
 /* :root{
@@ -11,7 +16,6 @@ body{
 } */
 body{
 	/* Variables */
-	--bg-bar: darkblue;
 	--width: 100vw;
 	/* Variables */
 	margin: 0;
