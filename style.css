@@ -1,11 +1,17 @@
 @media (min-width:200px;) and (max-width: 799;){
-	body{
-		--bg-bar: pink;
+	header{
+		background-color: pink;
+	}
+	footer{
+	background-color: pink;
 	}
 }
 @media (min-width: 800;) and (max-width:2000){
-	body{
-	--bg-bar: green;
+	header{
+		background-color: green;
+	}
+	footer{
+	background-color: green;
 	}
 }
 /* 4:3 mode ↓ */
