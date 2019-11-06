@@ -73,7 +73,7 @@ hr{
 
 footer{
 	box-sizing: border-box;
-	background-color: var(--bg-bar);
+	background-color: var(--bg-color);
 	border: .2rem solid black;
 	min-width: var(--width);
 	min-height: 12vh;
