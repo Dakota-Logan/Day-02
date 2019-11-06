@@ -1,11 +1,11 @@
-@media (max-width: 799;){
+@media (min-width:200px;) and (max-width: 799;){
 	body{
-		--bg-bar: gainsboro;
+		--bg-bar: pink;
 	}
 }
-@media (min-width: 800;){
+@media (min-width: 800;) and (max-width:1200){
 	body{
-	--bg-bar: darkblue;
+	--bg-bar: green;
 	}
 }
 /* 4:3 mode ↓ */
@@ -17,6 +17,7 @@
 body{
 	/* Variables */
 	--width: 100vw;
+	--bg-bar: darkblue;
 	/* Variables */
 	margin: 0;
 	padding: 0;
