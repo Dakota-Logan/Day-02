@@ -7,7 +7,6 @@
 body{
 	/* Variables */
 	--width: 100vw;
-	--bg-bar: darkblue;
 	/* Variables */
 	margin: 0;
 	padding: 0;
@@ -16,7 +15,6 @@ body{
 
 header{
 	box-sizing: border-box;
-	background-color: var(--bg-bar);
 	border: .2rem solid black;
 	min-width: var(--width);
 	min-height: 8vh;
@@ -109,7 +107,7 @@ footer{
 	margin: 0 auto;
 	font-size: 1.3rem;
 }
-@media (min-width:200px;) and (max-width: 799;){
+@media (max-width: 799;){
 	header{
 		background-color: pink;
 	}
@@ -117,7 +115,7 @@ footer{
 	background-color: pink;
 	}
 }
-@media (min-width: 800;) and (max-width:2000){
+@media (min-width: 800;){
 	header{
 		background-color: green;
 	}
