@@ -3,7 +3,7 @@
 		--bg-bar: pink;
 	}
 }
-@media (min-width: 800;) and (max-width:1200){
+@media (min-width: 800;) and (max-width:2000){
 	body{
 	--bg-bar: green;
 	}
